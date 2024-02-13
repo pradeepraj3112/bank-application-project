@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --aqua-:rgb(0, 255, 255);
+  --blue-: rgba(2, 82, 102, 0.993);
+  --black-:rgb(27, 26, 26);
+}
+.deposit{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--black-);
+}
+.row {
+  background-color: var(--black-);
+  color: rgb(0, 255, 255);
+  border-bottom: 3px solid rgb(0, 255, 255);
+}
+.deposit .inputs {
+  width: 33vw;
+  padding: 5px;
+  background-color: rgba(178, 175, 175, 0.451);
+  border: 0.5px solid black;
+  border-radius: 3px;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.forms {
+  margin-top: 50px;
+  width: 45%;
+  height: 400px;
+  margin-left: 15%;
+  align-items: center;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  color: rgb(7, 7, 7);
+  box-shadow: rgb(5, 5, 5) 10px 40px 40px -30px;
+  background-color:white;
+  border: 0px solid rgb(0, 255, 255);
+  border-radius: 1px 20px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.forms h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  margin-top: 30px;
+}
+.forms img {
+  padding-top: 20px;
+}
+.button {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 2px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 70px;
+  margin-left: 62%;
+  background-color: rgb(2, 82, 102);
+  color: white;
+}
+.button:hover {
+  box-shadow: 0px 0px 10px yel low, 0px 0px 25px rgb(104, 104, 103),
+    0px 0px 50px rgb(104, 104, 103);
+  background-color: rgb(104, 104, 103);
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  width: 250px;
+  height: 50px;
+  margin-left: 10px;
+  color: rgb(0, 0, 0);
+  padding: 5px 20px 5px 20px;
+  border-radius: 4px;
+  font-weight: 700;
+  background-color: rgb(3, 173, 173);
+  border-right: 2px solid black;
+}
+.btn:hover {
+  background-color: rgb(7, 7, 7);
+  color: white;
+}
+/*
+.deposit {
+  width: 100%;
+  height: 86vh;
+
+  background-color: rgba(2, 82, 102, 0.424);
+}*/
+.AddAnotherDeposit {
+  margin-top: 20px;
+}
+.deposit_content {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.line_1,
+.line_2 {
+  list-style: none;
+}
+.types_of_deposit {
+  display: flex;
+  width: 600px;
+  padding: 10px;
+  background-color: white;
+  list-style: none;
+}
+.types_of_deposit li {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(19, 130, 194);
+}
+.deposit_content img {
+  width: 300px;
+  height: 250px;
+}
+.deposit_content .content {
+  padding: 10px;
+}
+.link{
+  width: 250px;
+  height: 50px;
+  margin-left: 10px;
+  color: rgb(3, 173, 173);
+  padding: 5px 20px 5px 20px;
+  border-radius: 4px;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+  border-right: 2px solid black;
+
+}
+.link:hover {
+  background-color: rgb(7, 7, 7);
+  color: white;
+}
